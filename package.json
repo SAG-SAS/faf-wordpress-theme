@@ -1,10 +1,11 @@
 {
-		"scripts": {
-		  "start": "gulp",
-		  "wordpress": "wp-env start"
-		},
-  "devDependencies": {
-    "gulp": "^5.0.1",
-    "gulp-less": "^5.0.0"
-  }
+	"scripts": {
+		"watch": "gulp",
+		"start": "concurrently --raw \"wp-env start\" \"gulp\""
+	},
+	"devDependencies": {
+		"concurrently": "^9.1.2",
+		"gulp": "^5.0.1",
+		"gulp-less": "^5.0.0"
+	}
 }
