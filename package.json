@@ -1,0 +1,10 @@
+{
+		"scripts": {
+		  "start": "gulp",
+		  "wordpress": "wp-env start"
+		},
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-less": "^5.0.0"
+  }
+}
