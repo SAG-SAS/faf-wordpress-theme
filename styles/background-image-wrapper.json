@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Background image wrapper",
+	"slug": "background-image-wrapper",
+	"blockTypes": [
+		"core/cover"
+	],
+	"styles": {
+		"background": {
+			"backgroundImage": {
+				"url": "/wp-content/themes/faf-wordpress-theme/assets/images/default-bg.jpg"
+			}
+		},
+		"dimensions": {
+			"minHeight": "100vh"
+		}
+	}
+}

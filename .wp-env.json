@@ -1,4 +1,9 @@
 {
 	"core": null,
-    "themes": [ "." ]
+	"themes": [
+		"."
+	],
+	"mappings": {
+		"wp-content/uploads": "./wp-content/uploads"
+	}
 }

@@ -1,0 +1,64 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "FAF Design",
+	"description": "",
+	"slug": "faf",
+	"styles": {
+		"blocks": {
+			"core/cover": {
+				"background": {
+					"backgroundImage": {
+						"url": "/wp-content/themes/faf-wordpress-theme/assets/images/default-bg.jpg"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"top": "2rem",
+						"bottom": "2rem"
+					}
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"title": "Header",
+			"name": "header",
+			"area": "header"
+		},
+		{
+			"title": "Footer",
+			"name": "footer",
+			"area": "footer"
+		}
+	],
+	"settings": {
+		"color": {
+			"background": true,
+			"custom": true
+		},
+		"background": {
+			"backgroundImage": true
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Roboto, sans-serif",
+					"name": "Roboto",
+					"slug": "roboto",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "auto",
+							"fontWeight": "100 1000",
+							"src": [
+								"file:./assets/fonts/Roboto-VariableFont_wdth,wght.ttf"
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+}
