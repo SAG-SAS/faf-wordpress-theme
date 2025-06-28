@@ -5,21 +5,7 @@
 	"description": "",
 	"slug": "faf",
 	"styles": {
-		"blocks": {
-			"core/cover": {
-				"background": {
-					"backgroundImage": {
-						"url": "/wp-content/themes/faf-wordpress-theme/assets/images/default-bg.jpg"
-					}
-				},
-				"spacing": {
-					"padding": {
-						"top": "2rem",
-						"bottom": "2rem"
-					}
-				}
-			}
-		}
+		"blocks": {}
 	},
 	"templateParts": [
 		{
@@ -36,7 +22,19 @@
 	"settings": {
 		"color": {
 			"background": true,
-			"custom": true
+			"custom": true,
+			"palette": [
+				{
+					"color": "#222",
+					"name": "Content Background",
+					"slug": "content-background"
+				},
+				{
+					"color": "#DDD",
+					"name": "Text color",
+					"slug": "text"
+				}
+			]
 		},
 		"background": {
 			"backgroundImage": true

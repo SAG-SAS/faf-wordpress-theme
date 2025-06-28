@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Header block wrapper",
+	"slug": "header-block-wrapper",
+	"blockTypes": [
+		"core/group"
+	],
+	"styles": {
+		"spacing": {
+			"padding": {
+				"top": "10px",
+				"bottom": "10px",
+				"left": "10px",
+				"right": "10px"
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--content-background)",
+			"text": "var(--wp--preset--color--text)"
+		}
+	}
+}
